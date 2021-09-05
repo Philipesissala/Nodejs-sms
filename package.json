@@ -1,7 +1,14 @@
 {
-  "name": "nodejs+sms",
+  "name": "nodejs_sms",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Philipesissala <filipesissala14@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r dotenv/config index"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twilio": "^3.67.1"
+  }
 }
